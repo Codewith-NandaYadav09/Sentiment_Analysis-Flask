@@ -62,14 +62,13 @@ To run the app.py Flask application  on your local machine, follow these steps:
    - By default, the application will be accessible at http://127.0.0.1:5000/.
 
 6. *Test the API Endpoints*:
-   - Use tools like curl, Postman, or a web browser to interact with the API endpoints defined in api.py.
+   - Use tools like curl, Postman, or a web browser to interact with the API endpoints defined in app.py.
    - For example, to test a GET endpoint, you might use:
      bash
      curl http://127.0.0.1:5000/your-endpoint
      
 
-*Note*: Ensure that any necessary model files (e.g., model_xgb.pkl) and other resources are in the correct paths as expected by api.py. Additionally, if api.py includes configurations for different environments (development, testing, production), set the appropriate environment variables to match your setup.
 
 For more detailed information on running a Flask application, refer to the official Flask documentation: 
 
-By following these steps, you should be able to successfully run the api.py Flask application on your local machine.
+By following these steps, you should be able to successfully run the app.py Flask application on your local machine.
