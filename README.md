@@ -1,15 +1,15 @@
-To run the api.py Flask application  on your local machine, follow these steps:
+To run the app.py Flask application  on your local machine, follow these steps:
 
 1. *Clone the Repository*:
    - Open your terminal or command prompt.
    - Navigate to the directory where you want to clone the repository.
    - Execute the following command:
      bash
-     git clone https://github.com/Codewith-NandaYadav09/Sentiment-Analysis.git
+     git clone https://github.com/Codewith-NandaYadav09/Sentiment-Analysis-Flask.git
      
    - Change to the repository's directory:
      bash
-     cd Sentiment-Analysis
+     cd Sentiment-Analysis-Flask
      
 
 2. *Set Up a Virtual Environment*:
@@ -36,22 +36,22 @@ To run the api.py Flask application  on your local machine, follow these steps:
      
    - If there's no requirements.txt, you may need to manually install the necessary packages. Common dependencies for a Flask application might include Flask, pandas, scikit-learn, and xgboost. Install them using:
      bash
-     pip install Flask pandas scikit-learn xgboost
+     pip install Flask pandas scikit-learn xgboost nltk matplotlib
      
 
 4. *Set Environment Variables*:
    - Flask requires the FLASK_APP environment variable to point to your application file.
    - On Unix or macOS:
      bash
-     export FLASK_APP=api.py
+     export FLASK_APP=app.py
      
    - On Windows (Command Prompt):
      bash
-     set FLASK_APP=api.py
+     set FLASK_APP=app.py
      
    - On Windows (PowerShell):
      bash
-     $env:FLASK_APP = "api.py"
+     $env:FLASK_APP = "app.py"
      
 
 5. *Run the Flask Application*:
