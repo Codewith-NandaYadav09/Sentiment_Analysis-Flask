@@ -23,7 +23,7 @@ def test():
 
 @app.route("/", methods=["GET", "POST"])
 def home():
-    return render_template("landing.html")
+    return render_template("index.html")
 
 
 @app.route("/predict", methods=["POST"])
@@ -64,7 +64,7 @@ def predict():
             predicted_sentiment = single_prediction(predictor, scaler, cv, text_input)
 
             # return jsonify({"prediction": predicted_sentiment})
-            return render_template('landing.html', prediction=predicted_sentiment)
+            return render_template('index.html', prediction=predicted_sentiment)
 
 
     except Exception as e:
