@@ -1,5 +1,7 @@
 
 ![WhatsApp Image 2024-12-20 at 3 57 56 PM](https://github.com/user-attachments/assets/a6deaa48-6748-4518-a215-b5206ee5cfad)
+
+
 To run the app.py Flask application  on your local machine, follow these steps:
 
 1. *Clone the Repository*:
